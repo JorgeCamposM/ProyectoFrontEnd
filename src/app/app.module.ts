@@ -10,12 +10,17 @@ import { NgSelectModule } from '@ng-select/ng-select';
 import { FormsModule } from '@angular/forms';
 import { PieChartComponent } from './components/charts/pie-chart/pie-chart.component';
 
+import { InicioComponent } from './pages/inicio/inicio.component';
+import { LoginComponent } from './pages/login/login.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     TopComponent,
     SerieComponent,
     PieChartComponent,
+    InicioComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
